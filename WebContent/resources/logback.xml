@@ -1,0 +1,18 @@
+<configuration scan="true">
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss} [%p] %c - %m%n</pattern>
+    </encoder>
+  </appender>
+  <logger name="com.irev.app" level="DEBUG"/>
+  
+  <logger name="org.springframework" level="WARN"/>
+  <logger name="org.springframework.web" level="WARN"/>
+  <logger name="org.springframework.security" level="WARN"/>
+  <logger name="org.springframework.cache" level="WARN"/>
+  
+  <root level="DEBUG">
+    <appender-ref ref="STDOUT" />
+  </root>
+  
+</configuration>
