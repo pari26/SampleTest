@@ -20,7 +20,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 <security:authentication-manager>
     <security:authentication-provider>
       <security:user-service>
-        <security:user name="satya" password="satya" authorities="ROLE_USER,ROLE_ADMIN" />
+        <security:user name="murali" password="murali" authorities="ROLE_USER,ROLE_ADMIN" />
         <security:user name="admin" password="admin" authorities="ROLE_USER"/>
       </security:user-service>
     </security:authentication-provider>
